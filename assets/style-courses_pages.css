@@ -129,4 +129,25 @@ h1{
     .banner img{
         width: 100%;
     }
+    .content-files{
+        height: 80px;
+        width: 70%;
+        margin: 0 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content-files img{
+        width: 100%;
+    }
+    .accordion-body{
+        width: 100% !important;
+    }
+    .accordion-body ul{
+        display: inline;
+    }
+    .accordion-body ul li{
+        width: 90%;
+        margin: 0 5% !important;
+    }
 }
