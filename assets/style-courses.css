@@ -83,6 +83,9 @@ h1{
     display: inline;
 
 }
+.margin{
+    margin: 2% 0;
+}
 
 .card{
 
@@ -132,7 +135,7 @@ footer{
     .pag-tittle{
     height: 250px;
     background-image: url(images/imagem-de-marca.jpeg);
-    background-position: top;
+    background-position: 50% 20%;
     background-size: contain;
     }
 }
