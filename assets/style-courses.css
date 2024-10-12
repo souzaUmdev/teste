@@ -82,15 +82,15 @@ h1{
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 5px;
-}
-.center-button a{
-    display: inline;
+} */
 
+ .content-section .card { 
+    margin: 1rem;
 }
 
 .margin{
     margin: 2% 0;
-}
+} 
 
 footer{
     background-color: #E0E0E0;
