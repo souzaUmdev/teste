@@ -58,7 +58,7 @@ h1{
     font-size: 18px;
     transition: color 0.3s;
 }
-.nav-links a::hover{
+.nav-links a:hover{
     color: #fff;
 }
 .menu-icon{
