@@ -67,8 +67,8 @@ h1{
     cursor: pointer;
 }
 .content-section{
-    width: 95%;
-    margin: 1% 2.5%;
+    width: 100%;
+    margin: 1% 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -82,10 +82,6 @@ h1{
     gap: 10px;
     margin-bottom: 5px;
 } */
-
- .content-section .card { 
-    margin: 1rem;
-}
 
 .margin{
     margin: 2% 5%
@@ -136,5 +132,8 @@ footer{
     background-image: url(images/imagem-de-marca.jpeg);
     background-position: 50% 20%;
     background-size: contain;
+    }
+    .margin{
+        margin: 2% 5%;
     }
 }
