@@ -66,9 +66,6 @@ h1{
     font-size: 30px;
     cursor: pointer;
 }
-.card{
-    width: 100% !important;
-}
 .content-section{
     width: 100%;
     margin: 1% 0;
@@ -135,7 +132,7 @@ footer{
     background-position: 50% 20%;
     background-size: contain;
     }
-    .margin{
-        margin: 2% 5%;
+    .card{
+        width: 100% !important;
     }
 }
