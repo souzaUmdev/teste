@@ -88,7 +88,18 @@ h1{
 footer{
     background-color: #E0E0E0;
 }
-
+.podquest{
+    width: 90%;
+    margin: auto 5%;
+}
+#p-center{
+    background-color: red !important;
+}
+.centralizar-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* mobile */
 @media (max-width: 720px){
