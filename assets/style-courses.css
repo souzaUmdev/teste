@@ -101,6 +101,7 @@ footer{
     align-items: center;
 }
 
+
 /* mobile */
 @media (max-width: 720px){
     .nav-links{
