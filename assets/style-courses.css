@@ -101,6 +101,21 @@ h1{
     color: black !important;
     font-size: 2.5rem;
 }
+.grupoEstudo h2{
+    text-align: center;
+    color: black !important;
+}
+.grupoEstudo .card-body{
+    display: flex;
+    justify-content: center;
+}
+.grupoEstudo button{
+    margin: 0 10px;
+}
+.grupoEstudo a{
+    text-decoration: none;
+    color: black;
+}
 
 .content-section{
     width: 100%;
