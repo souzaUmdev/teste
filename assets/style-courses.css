@@ -17,7 +17,7 @@ header img{
 }
 header h2 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 body{
     background-color: #ff6600 !important;
@@ -80,16 +80,19 @@ h1{
 }
 .botoes{
     width: 90%;
-    margin: 0 5%;
+    margin: auto 5%;
 }
-.botoes img{
-    width: 100%;
+.botoes button{
+    margin: 5px 0;
 }
-.boton-card{
-    text-align: center;
-    margin-bottom: 8px;
+.botoes div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
-.boton-card a{
+.botoes a{
     text-decoration: none;
     color: black;
 }
