@@ -85,6 +85,20 @@ h1{
 .botoes img{
     width: 100%;
 }
+.boton-card{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.boton-card a{
+    text-decoration: none;
+    color: black;
+}
+.titulo-meio{
+    text-align: center;
+    color: black !important;
+    font-size: 2.5rem;
+}
+
 .content-section{
     width: 100%;
     margin: 1% 0;
