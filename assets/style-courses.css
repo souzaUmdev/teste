@@ -16,7 +16,7 @@ header img{
     border-radius: 50%;
 }
 header h2 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 body{
