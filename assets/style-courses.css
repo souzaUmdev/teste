@@ -85,7 +85,9 @@ h1{
     width: 90%;
     margin: auto 5%;
 }
-
+.botoes button{
+    margin: 5px 0;
+}
 .botoes div{
     display: flex;
     flex-direction: column;
@@ -111,7 +113,7 @@ h1{
     justify-content: center;
 }
 .grupoEstudo button{
-    margin: 0 10px;
+    margin: 0 2%;
 }
 .grupoEstudo a{
     text-decoration: none;
