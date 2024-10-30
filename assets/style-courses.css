@@ -53,6 +53,9 @@ h1{
     font-weight: bold !important;
     text-align: center;
 }
+.justificado{
+    text-align: justify;
+}
 .nav-links li{
     margin:0 15px !important;;
 }
