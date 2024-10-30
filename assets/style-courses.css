@@ -139,12 +139,11 @@ h1{
 .margin{
     margin: 2% 5%
 }
+.podcast{
+    width: 90%;
+}
 footer{
     background-color: #E0E0E0;
-}
-.podquest{
-    width: 90%;
-    margin: auto 5%;
 }
 #p-center{
     background-color: red !important;
