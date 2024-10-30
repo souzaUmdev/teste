@@ -27,6 +27,13 @@ nav a{
     text-decoration: none;
     text-align: center;
 }
+.autor{
+    width: 90%;
+    margin: 0 5%;
+}
+.autor img{
+    width: 100%;
+}
 .nav-links{
     list-style: none;
     display: flex;
@@ -158,11 +165,16 @@ footer{
     height: 50px;
     position: relative;
 }
-.whatsapp-content{
+.whatsapp a{
+    display: block;
     width: 100%;
+}
+.whatsapp-content{
+    display: block;
     position: fixed;
     bottom: 25px;
-    left: 25px;
+    right: -420px
+    
 }
 .whatsapp-content img{
     width: 12%;
