@@ -22,11 +22,7 @@ header h2 a{
 body{
     background-color: #ff6600 !important;
 }
-nav a{
-    color: #E0E0E0;
-    text-decoration: none;
-    text-align: center;
-}
+
 .menu-container {
     position: relative;
 }
@@ -62,7 +58,7 @@ nav a{
 
 .sidebar ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .sidebar.active {
@@ -75,10 +71,6 @@ nav a{
 .autor img{
     width: 100%;
 }
-/* .nav-links{
-    list-style: none;
-    display: flex;
-} */
 .pag-tittle{
     background-image: url("images/imagem-de-marca.jpeg");
     background-repeat: no-repeat;
@@ -104,23 +96,7 @@ h1{
 .justificado{
     text-align: justify;
 }
-/* .nav-links li{
-    margin:0 15px !important;;
-}
-.nav-links li a{
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-.nav-links a:hover{
-    color: #fff;
-} */
-.menu-icon{
-    display: none;
-    color: #fff;
-    font-size: 30px;
-    cursor: pointer;
-}
+
 .division-p{
     width: 100%;
 }
@@ -146,6 +122,16 @@ h1{
 .botoes a{
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.botoes img{
+    width: 10%;
+    height: 10%;
+}
+.botoes-content img{
+    width: 100%;
 }
 .titulo-meio{
     text-align: center;
