@@ -122,15 +122,18 @@ h1{
 .botoes a{
     text-decoration: none;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    width: 100%;
+    display: flexbox;
+
 }
 .botoes img{
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
 }
 .botoes-content img{
+    width: 10%;
+}
+#imagemBotao{
     width: 100%;
 }
 .titulo-meio{
