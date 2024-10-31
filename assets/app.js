@@ -1,4 +1,4 @@
-function Menu(){
-    const navlinks = document.querySelector('.nav-links');
-    navlinks.classList.toggle('show')
-}
+document.getElementById('menuToggle').addEventListener('click', function() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('active');
+});

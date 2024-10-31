@@ -27,6 +27,47 @@ nav a{
     text-decoration: none;
     text-align: center;
 }
+.menu-container {
+    position: relative;
+}
+
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Escondido inicialmente */
+    width: 250px;
+    height: 100%;
+    background-color: #444;
+    color: white;
+    transition: left 0.3s ease;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar.active {
+    left: 0; /* Mostra o menu */
+}
 .autor{
     width: 90%;
     margin: 0 5%;
@@ -34,10 +75,10 @@ nav a{
 .autor img{
     width: 100%;
 }
-.nav-links{
+/* .nav-links{
     list-style: none;
     display: flex;
-}
+} */
 .pag-tittle{
     background-image: url("images/imagem-de-marca.jpeg");
     background-repeat: no-repeat;
@@ -63,7 +104,7 @@ h1{
 .justificado{
     text-align: justify;
 }
-.nav-links li{
+/* .nav-links li{
     margin:0 15px !important;;
 }
 .nav-links li a{
@@ -73,7 +114,7 @@ h1{
 }
 .nav-links a:hover{
     color: #fff;
-}
+} */
 .menu-icon{
     display: none;
     color: #fff;
