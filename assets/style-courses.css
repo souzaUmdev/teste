@@ -105,11 +105,18 @@ h1{
     width: 100%;
     margin: 2% 0;
 }
+.linha{
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+}
+.tamanho{
+    width: 100%;
+}
 .botoes{
     width: 90%;
-    margin: auto 5%;
+    margin: 0 5%;
 }
-.botoes button{
+.botoes button:nth-child(1){
     margin: 5px 0;
 }
 .botoes div{
